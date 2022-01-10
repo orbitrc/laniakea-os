@@ -1,2 +1,2 @@
 default:
-	buildiso -f -p laniakea/desktop
+	./buildiso -f -p desktop

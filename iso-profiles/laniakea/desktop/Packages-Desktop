@@ -111,6 +111,10 @@ manjaro-application-utility
 sddm
 sddm-kcm
 
+## Input Methods
+fcitx5
+fcitx5-qt
+
 ## Plasma5
 bluedevil
 kde-gtk-config
