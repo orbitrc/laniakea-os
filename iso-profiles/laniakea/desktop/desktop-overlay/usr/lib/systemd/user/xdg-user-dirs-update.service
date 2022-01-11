@@ -1,0 +1,11 @@
+[Unit]
+Description=Update XDG user dir configuration
+Documentation=man:xdg-user-dirs-update(1)
+
+[Service]
+Environment=LANG=en_US.UTF-8
+Type=oneshot
+ExecStart=/usr/bin/xdg-user-dirs-update
+
+[Install]
+WantedBy=default.target
