@@ -11,9 +11,10 @@
 
 version=0.15.13
 
-LIBDIR='/usr/lib/manjaro-tools'
+LIBDIR='iso-profiles/usr/lib/manjaro-tools'
 DATADIR='iso-profiles/usr/share/manjaro-tools'
 SYSCONFDIR='iso-profiles/etc/manjaro-tools'
+INSTALLERDIR='laniakea-installer'
 
 [[ -r ${LIBDIR}/util-msg.sh ]] && source ${LIBDIR}/util-msg.sh
 import ${LIBDIR}/util.sh
