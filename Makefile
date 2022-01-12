@@ -2,4 +2,4 @@ default:
 	./buildiso -f -p desktop
 
 query:
-	./buildiso -q -p desktop
+	./buildiso -q -v -p desktop
