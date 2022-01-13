@@ -436,7 +436,7 @@ load_profile_config(){
     [[ -z ${disable_systemd[@]} ]] && disable_systemd=('pacman-init')
 
     if [[ -z ${enable_systemd_live[@]} ]]; then
-        enable_systemd_live=('laniakea-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
+        enable_systemd_live=('manjaro-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
     fi
 
     if [[ ${displaymanager} != "none" ]]; then
