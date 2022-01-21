@@ -8,6 +8,3 @@ mkinitcpio-nfs-utils
 nbd
 clonezilla
 virtualbox-guest-utils
-
-# AUR test
-httproto
