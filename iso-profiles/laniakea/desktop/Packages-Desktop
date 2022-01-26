@@ -114,6 +114,9 @@ sddm-kcm
 ## Input Methods
 fcitx5
 fcitx5-qt
+fcitx5-gtk
+fcitx5-configtool
+fcitx5-hangul
 
 ## Plasma5
 bluedevil
